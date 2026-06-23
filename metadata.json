@@ -1,0 +1,6 @@
+{
+  "name": "EJA Ágil Futuro",
+  "description": "Landing page rápida, responsiva e de alta conversão para o programa de Educação de Jovens e Adultos (EJA) Ágil Futuro. Conclua seus estudos rápido, sem complicação e com pagamento flexível.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

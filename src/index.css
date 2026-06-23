@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", "Plus Jakarta Sans", sans-serif;
+  --color-brand-blue: #0F2C59;     /* Deep Trustworthy Blue */
+  --color-brand-cyan: #008DDA;     /* Modern Education Cyan */
+  --color-brand-amber: #FF9E1B;    /* High-contrast CTA Amber */
+  --color-brand-gold: #FFD43B;     /* Accreditation Gold */
+  --color-whatsapp: #25D366;       /* Official WhatsApp Green */
+  --color-whatsapp-dark: #128C7E;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAFAFA;
+    color: #1E293B;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
